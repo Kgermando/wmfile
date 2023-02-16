@@ -43,7 +43,7 @@ export class UploadfileController {
     }))
     uploadFile(@UploadedFile() file) {
         return {
-            url: `http://44.212.22.197:3000/uploadfile/${file.path}`
+            url: `http://54.144.150.55:3000/uploadfile/${file.path}`
         }
     }
 
